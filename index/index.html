@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+      <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">  
+            <ul class="navigation">
+                <img src="images/logo.jpg" alt="logo">
+                <li><a class="ham" href="#">Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li> 
+                <li><a href="discover.html">Join Us</a></li> 
+                <li><a href="contact.html">Contact</a></li>
+            </ul>                
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <div class="main_container" id="home">
+    <div class="banner_image">
+      <div class="banner_content">
+
+        <main>
+          <div class="weathersummry"></div>
+            <div class="herodiv">
+              <div class="hero-ph"> Image Placeholder</div>
+          <section class="weathersummry"> 
+            <p> currently: Sunny</p>
+            <p> Temperature: 76 F</p>
+            <p> Humidity: 69% </p>
+            <p> Perciptation: 0 inches</p>
+          < p> Wind Speed: 5 Mph </p>
+               </section>
+            </div>
+          </main
+        <h1>Kampala Chamber of Commerse.</h1>
+        <span>Welcome to kampala city of East Africa the Pearl of Africa</span>
+      
+        <p>
+        The Kenya National Chamber of Commerce and Industry is registered as a not-for-profit private company limited by guarantee under the Companies Act Chapter 486 of the laws of Kenya. Before the promulgation of the Kenyan Constitution in August 2010, the KNCCI had its main operations at the head office in Nairobi with regional offices in the major towns in Kenya. However, after the promulgation of the constitution, the Chamber amended the legal instrument to establish a National Office and County Chamber’s offices in all the 47 Counties.
+        </p>
+      </div>
+    </div>
+   <div class="about" id="about">
+      <h1>About us</h1>
+      <p>As the Uganda National Chamber of Commerce and Industry, our primary role is "Enhancing Business Opportunity" for the private sector in the whole of Uganda.</p>
+      <div class="btn"><a href="#">Learn More</a></div>
+    </div>
+  
+    <div class="services" id="services">
+      <h1 class="title">Our Services</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ipsum neque, nobis ratione vitae eum quibusdam quidem culpa dolorum autem sequi. Rem at beatae debitis.</p>
+  
+      <div class="diff_services">
+        <div class="diff_service_item">
+          <img src="images/kampala1.jpg" alt="Service_image">
+          <h3>Business Opportunities</h3>
+          <p>Kampala offers a number of commercial services that aim to promote trade and investment interests, encourage exports, and level the playing field for all businesses by advocating for open markets, free trade, and predictability and transparency in the regulatory environment. We draw on our extensive networks of business contacts and local knowledge to conduct partner searches, perform company profiles and carry out other commercial services upon request by Uganda firms. The Kampala chamber of commerce is eager to assist Ugandan businesses and individuals seeking to identify  .</p>
+        </div>
+        <div class="diff_service_item">
+          <img src="images/imgtwo.jpg" alt="Service_image">
+          <h3>Tourism Sector</h3>
+          <p>Uganda is blessed with undeniable natural beauty. In the west, the Rwenzori peaks reach towards the sky, the perfect challenge for bold explorers – Across the nation, parks are home to some of the world’s most exotic animals: Silverbacks, lions, and countless others, ooh… Uganda is home to Africa’s big 5. Winding roads lead to places of grand beauty and unique cultures for those who dare to explore.  There’s a story at every turn, especially from our people, who are renowned for their warmth and charm..</p>
+        </div>
+        <div class="diff_service_item">
+          <img src="images/imgthree.jpg" alt="Service_image">
+          <h3>Hospitality & Entaianment</h3>
+        <p>"There are a lot of investment opportunities in tourism in Uganda. One of them, of course, is the accommodation facilities. We require a lot more luxury accommodation facilities in the different parts of the country. We still need more accommodation for tourists in this country in mid-range facilities as well. In terms of the tourism experiences, for example, hiking safaris on the Rwenzori Mountains, having people with the international experience of organizing this kind of service is also where we would require international investors to come in. We have had that investment by an international investor, but we need more of such, like bungee jumping on the Nile, 
+          .</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="contactus" id="contactus">
+      <h1 class="title">Contact Us</h1>
+      <div class="form_wrapper">
+        <div class="form_input">
+          <input type="text" placeholder="Email">
+        </div>
+        <div class="form_input">
+          <input type="text" placeholder="Subject">
+        </div>
+        <div class="form_input">
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <div class="btn">
+          <a href="#">Submit</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+        <div class="footer-sect">
+            <p>&copy;<span id="currentYear"></span> | Peter Charles Otim | Uganda</p>
+            <h1> Updated date</h1>
+        <span id="curentdate"></span>
+        using toLocaleDateString: <span id="currentdate2"></span>
+            <script src="JS/script.js"></script>
+        </div>
+    </footer>   
+  </div>
+</body>
+</html>
